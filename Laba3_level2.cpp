@@ -14,7 +14,7 @@ int main() {
     cin >> age; 
 
     // Проверка корректности возраста и типа введённых данных
-    while ((cin.fail())  (age < 0)  (age > 120) ) {
+    while ((cin.fail()) or (age < 0)  or (age > 120) ) {
         cout << "Это не возраст. Повторите попытку" << endl;
 
         cin.clear();
